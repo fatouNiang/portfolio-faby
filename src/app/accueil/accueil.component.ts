@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
   dark= false;
+  menu= false;
   constructor() { }
 
   ngOnInit(): void {
