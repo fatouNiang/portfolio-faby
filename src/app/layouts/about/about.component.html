@@ -1,8 +1,7 @@
 <div class="bg-white w-3/4 grid grid-cols-1 rounded-xl mx-44 my-9 shadow-2xl">
-    <div class="flex flex-row my-10 ml-14 font-serif text-5xl">
-        <!-- <h1 class="font-serif text-5xl ml-14">A Propos de moi <strong>-------------</strong></h1> -->
-        <div class=" basis-1/3">A Propos de Moi </div>
-        <div class="text-rose-500 font-bold text-5xl -mt-4 ml-2">______</div>
+    <div class="flex flex-row my-10 ml-14 font-serif text-4xl">
+        <div class=" basis-1/3 font-fredoka">A Propos de Moi </div>
+        <div class="text-rose-500 text-5xl -mt-6">______</div>
     </div>
 
     <div class="grid grid-cols-2 ">
@@ -14,94 +13,125 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat atque blanditiis est enim facere error nulla,<br> excepturi repudiandae ratione, obcaecati, pariatur consequatur ad odit et provident maxime nostrum sunt in.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, atque dolorum nemo ab sequi molestias reprehenderit, temporibus odit accusamus iure sit eos modi iusto aliquam vel minima beatae delectus. Velit.</p>
             <h1 class="text-2xl font-fredoka mt-5">Information Personnel</h1>
-            <div class="flex justify-between mt-7">
-                <button type="button" class="flex justify-center p-3 shadow-xl rounded-md ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-rose-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-                    </svg>
-                </button>
-                <div class="mr-30"><strong>Telephone</strong> <br> <span>+221 77 918-42-16 </span></div>
-                <button type="button" class="flex justify-center p-3 shadow-xl rounded-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-red-400">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                </button>
-                <div class="mr-30"><strong>Localisation</strong>  <br> <span class="mr-18">Diaxaye 2, Unité 22 </span></div>
+            <div class="flex flex-row">
+                <div class="basis-2/4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="">
+                            <button type="button" class="p-3 shadow-xl rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-rose-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="leading-loose -ml-16 ">
+                            <label class="block text-xs font-serif text-gray-500 my-2">Téléphone</label>
+                            <label class="block text-start text-sm font-semibold">+221 77 918-42-16</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-2/4">
+                    <div class="grid grid-cols-2">
+                        <div class="">
+                            <button type="button" class="p-3 shadow-xl rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-red-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="leading-loose -ml-16">
+                            <label class="block text-xs font-serif text-gray-500 my-2">Adresse</label>
+                            <label class="block text-start text-sm font-semibold">Diaxaye 2, Unité 22</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="flex justify-between mt-7">
-                <button type="button" class="flex justify-center p-3 shadow-xl rounded-md ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-teal-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                      </svg>                      
-                </button>
-                <div class="mr-30"><strong>Email</strong>  <br> <span>Fatou04.niang@gmail.com </span></div>
-                
-                <button type="button" class="flex justify-center p-3 shadow-xl rounded-md ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-purple-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
-                    </svg>
-                      
-                </button>
-                <div class="mr-30"><strong>Age</strong> <br> <span class="mr-32">25 ans </span></div>
+            <div class="flex flex-row">
+                <div class="basis-2/4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="">
+                            <button type="button" class="p-3 shadow-xl rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-teal-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                  </svg> 
+                            </button>
+                        </div>
+                        <div class="leading-loose -ml-16 ">
+                            <label class="block text-xs font-serif text-gray-500 my-2">E-mail</label>
+                            <label class="block text-start text-sm font-semibold">Fatou04.niang@gmail.com </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-2/4">
+                    <div class="grid grid-cols-2">
+                        <div class="">
+                            <button type="button" class="p-3 shadow-xl rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-purple-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="leading-loose -ml-16">
+                            <label class="block text-xs font-serif text-gray-500 my-2">Age</label>
+                            <label class="block text-start text-sm font-semibold">25 ans</label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="">
-        <span class="text-2xl mx-12 font-fredoka">Ce que je fais! </span>
+    <div class="flex justify-start p-6 ">
+        <span class="text-3xl mx-12 font-fredoka">Ce que je fais! </span>
+    </div>
 
-        <div class="flex flex-row mt-14 mx-28">
-    
-            <div class="basis-2/4  flex justify-center">
-               <button type="button" class="bg-teal-100 rounded-xl py-6 px-10 shadow-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-9 h-9 float-left">
-                        <path fill-rule="evenodd" d="M6.28 5.22a.75.75 0 010 1.06L2.56 10l3.72 3.72a.75.75 0 01-1.06 1.06L.97 10.53a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0zm7.44 0a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L17.44 10l-3.72-3.72a.75.75 0 010-1.06zM11.377 2.011a.75.75 0 01.612.867l-2.5 14.5a.75.75 0 01-1.478-.255l2.5-14.5a.75.75 0 01.866-.612z" clip-rule="evenodd" />
-                    </svg>
-                    <label class="float-left text-2xl pl-3 font-serif text-te">Developpement web</label><br>
-                    <!-- <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae ipsum quidem neque magnam esse ea a voluptas totam recusandae nihil quod, modi maxime consequatur. Ipsam corporis nisi molestias quod!</p> -->
-                </button>
-                
-                   
-            </div>
-    
-            <div class="basis-2/4 ml-14">
-                <button type="button" class="bg-rose-100 rounded-xl py-6 px-10 shadow-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 float-left">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-                    </svg>
-                    <label class="float-left text-2xl pl-3 font-serif">Developpement Mobile</label>
-               </button>
-            </div>
-        
-        </div>
-        <div class="flex flex-row mt-14 mx-28">
-    
-            <div class="basis-2/4  flex justify-center">
-               <button type="button" class="bg-blue-100 rounded-xl py-6 px-20 shadow-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" class="float-left" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 384">
-                    <path fill="#0ACF83" d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"/>
-                    <path fill="#A259FF" d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"/>
-                    <path fill="#F24E1E" d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"/>
-                    <path fill="#FF7262" d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"/>
-                    <path fill="#1ABCFE" d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"/>
+    <div class="flex flex-row mt-14 mx-28">
+
+        <div class="basis-2/4  flex justify-center">
+            <button type="button" class="bg-teal-100 rounded-xl py-6 px-10 shadow-2xl">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-9 h-9 float-left">
+                    <path fill-rule="evenodd" d="M6.28 5.22a.75.75 0 010 1.06L2.56 10l3.72 3.72a.75.75 0 01-1.06 1.06L.97 10.53a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0zm7.44 0a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L17.44 10l-3.72-3.72a.75.75 0 010-1.06zM11.377 2.011a.75.75 0 01.612.867l-2.5 14.5a.75.75 0 01-1.478-.255l2.5-14.5a.75.75 0 01.866-.612z" clip-rule="evenodd" />
                 </svg>
-                    <label class="float-left text-2xl pl-3 font-serif">Design figma</label>
-               </button>
+                <label class="float-left text-2xl pl-3 font-serif text-te">Developpement web</label><br>
+                <!-- <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae ipsum quidem neque magnam esse ea a voluptas totam recusandae nihil quod, modi maxime consequatur. Ipsam corporis nisi molestias quod!</p> -->
+            </button>
+            
                 
-                   
-            </div>
-    
-            <div class="basis-2/4 ml-14">
-                <button type="button" class="bg-purple-100 rounded-xl py-6 px-28 shadow-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 float-left">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-                    </svg>
-                    <label class="float-left text-2xl pl-3 font-serif">Wordpress </label>
-               </button>
-            </div>
-        
         </div>
+
+        <div class="basis-2/4 ml-14">
+            <button type="button" class="bg-rose-100 rounded-xl py-6 px-10 shadow-2xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 float-left">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                </svg>
+                <label class="float-left text-2xl pl-3 font-serif">Developpement Mobile</label>
+            </button>
+        </div>
+    
+    </div>
+    <div class="flex flex-row mt-14 mx-28">
+
+        <div class="basis-2/4  flex justify-center">
+            <button type="button" class="bg-blue-100 rounded-xl py-6 px-20 shadow-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" class="float-left" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 384">
+                <path fill="#0ACF83" d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"/>
+                <path fill="#A259FF" d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"/>
+                <path fill="#F24E1E" d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"/>
+                <path fill="#FF7262" d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"/>
+                <path fill="#1ABCFE" d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"/>
+            </svg>
+                <label class="float-left text-2xl pl-3 font-serif">Design figma</label>
+            </button>
+            
+                
+        </div>
+
+        <div class="basis-2/4 ml-14">
+            <button type="button" class="bg-purple-100 rounded-xl py-6 px-28 shadow-2xl">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="2em" height="2em" class="float-left" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path d="M16.935 128c0 44.012 25.6 81.92 62.622 99.938L26.585 82.806A110.666 110.666 0 0 0 16.935 128ZM128 239.065c12.898 0 25.305-2.265 36.923-6.302l-.788-1.477l-34.166-93.538l-33.28 96.787c9.846 2.954 20.382 4.53 31.311 4.53Zm15.262-163.151l40.172 119.434l11.126-37.022c4.726-15.36 8.37-26.388 8.37-35.938c0-13.785-4.924-23.237-9.06-30.523c-5.71-9.256-10.928-17.034-10.928-26.093c0-10.24 7.68-19.692 18.707-19.692h1.379A110.672 110.672 0 0 0 128 16.935a110.967 110.967 0 0 0-92.75 50.019l7.088.197c11.619 0 29.539-1.477 29.539-1.477c6.105-.296 6.794 8.468.788 9.157c0 0-6.007.787-12.8 1.083l40.566 120.32l24.32-72.862l-17.33-47.458a198.203 198.203 0 0 1-11.618-.985c-6.006-.394-5.317-9.55.69-9.255c0 0 18.313 1.477 29.242 1.477c11.619 0 29.539-1.477 29.539-1.477c6.006-.296 6.794 8.468.788 9.157c0 0-6.007.689-12.8 1.083ZM183.828 224a111.065 111.065 0 0 0 55.237-96c0-19.298-4.923-37.415-13.588-53.268a104.858 104.858 0 0 1-7.68 51.2L183.827 224ZM128 256C57.308 256 0 198.692 0 128C0 57.308 57.308 0 128 0c70.692 0 128 57.308 128 128c0 70.692-57.308 128-128 128Z"/></svg>
+                <label class="float-left text-2xl pl-3 font-serif">Wordpress </label>
+            </button>
+        </div>
+    
     </div>
      
     <div class=" flex justify-center p-6">
@@ -140,6 +170,7 @@
     </div>
     <div class="flex justify-center pb-5">
         <div class="grid grid-cols-5 mt-5 px-5">
+            <!-- Wordpress -->
             <button type="button" class="px-14 p-3 bg-gray-200 rounded-lg shadow-2xl">
                 <svg xmlns="http://www.w3.org/2000/svg"  width="5em" height="5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path d="M16.935 128c0 44.012 25.6 81.92 62.622 99.938L26.585 82.806A110.666 110.666 0 0 0 16.935 128ZM128 239.065c12.898 0 25.305-2.265 36.923-6.302l-.788-1.477l-34.166-93.538l-33.28 96.787c9.846 2.954 20.382 4.53 31.311 4.53Zm15.262-163.151l40.172 119.434l11.126-37.022c4.726-15.36 8.37-26.388 8.37-35.938c0-13.785-4.924-23.237-9.06-30.523c-5.71-9.256-10.928-17.034-10.928-26.093c0-10.24 7.68-19.692 18.707-19.692h1.379A110.672 110.672 0 0 0 128 16.935a110.967 110.967 0 0 0-92.75 50.019l7.088.197c11.619 0 29.539-1.477 29.539-1.477c6.105-.296 6.794 8.468.788 9.157c0 0-6.007.787-12.8 1.083l40.566 120.32l24.32-72.862l-17.33-47.458a198.203 198.203 0 0 1-11.618-.985c-6.006-.394-5.317-9.55.69-9.255c0 0 18.313 1.477 29.242 1.477c11.619 0 29.539-1.477 29.539-1.477c6.006-.296 6.794 8.468.788 9.157c0 0-6.007.689-12.8 1.083ZM183.828 224a111.065 111.065 0 0 0 55.237-96c0-19.298-4.923-37.415-13.588-53.268a104.858 104.858 0 0 1-7.68 51.2L183.827 224ZM128 256C57.308 256 0 198.692 0 128C0 57.308 57.308 0 128 0c70.692 0 128 57.308 128 128c0 70.692-57.308 128-128 128Z"/></svg>
             </button>
