@@ -1,74 +1,282 @@
-<div class="bg-white w-3/4 grid grid-cols-1 rounded-xl mx-44 my-9 shadow-2xl">
-    <div class="flex flex-row my-10 ml-14 font-serif text-4xl">
-        <div class=" basis-1/5 font-fredoka">Parcours </div>
-        <div class="text-rose-500 text-5xl -mt-6">______</div>
-    </div>
+<div class="bg-white w-3/4 grid grid-cols-1 rounded-xl mx-44 my-9 shadow-2xl hidden md:block">
+  <div class="flex flex-row my-10 ml-14 font-serif text-4xl">
+    <div class="basis-1/5 font-fredoka">Parcours</div>
+    <div class="text-rose-500 text-5xl -mt-6">______</div>
+  </div>
 
-    <div class="grid grid-cols-2">
-        <div class="p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" class="float-left" viewBox="0 0 512 512"><path fill="currentColor" d="m368 350.643l-112 63l-112-63v-66.562l-32-17.778v103.054l144 81l144-81V266.303l-32 17.778v66.562z"/><path fill="currentColor" d="M256 45.977L32 162.125v27.734L256 314.3l192-106.663V296h32V162.125Zm160 142.831l-32 17.777L256 277.7l-128-71.115l-32-17.777l-22.179-12.322L256 82.023l182.179 94.463Z"/></svg>
-            <label class="float-left ml-4 text-xl font-semibold">Diplome et Formation</label> 
-        </div>
-        <div class="p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" class="float-left" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21q-.825 0-1.412-.587Q2 19.825 2 19V8q0-.825.588-1.412Q3.175 6 4 6h4V4q0-.825.588-1.413Q9.175 2 10 2h4q.825 0 1.413.587Q16 3.175 16 4v2h4q.825 0 1.413.588Q22 7.175 22 8v11q0 .825-.587 1.413Q20.825 21 20 21Zm6-15h4V4h-4Z"/></svg>
-            <label class="float-left ml-4 text-xl font-semibold">Experience Professionnelles</label>
-        </div> 
+  <div class="grid grid-cols-2">
+    <div class="p-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2em"
+        height="2em"
+        class="float-left"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="currentColor"
+          d="m368 350.643l-112 63l-112-63v-66.562l-32-17.778v103.054l144 81l144-81V266.303l-32 17.778v66.562z"
+        />
+        <path
+          fill="currentColor"
+          d="M256 45.977L32 162.125v27.734L256 314.3l192-106.663V296h32V162.125Zm160 142.831l-32 17.777L256 277.7l-128-71.115l-32-17.777l-22.179-12.322L256 82.023l182.179 94.463Z"
+        />
+      </svg>
+      <label class="float-left ml-4 text-xl font-semibold"
+        >Diplome et Formation</label
+      >
     </div>
-
-    <div class="grid grid-cols-2">
-        <!-- Education -->
-        <div class="mx-5">
-            <div class="grid grid-rows-3 grid-flow-col gap-4 ">
-                <!--  -->
-                <div class="bg-fuchsia-100 rounded-xl py-3 px-5 shadow-2xl">
-                        <label class="float-left font-serif">2020-2021</label><br>
-                        <label class="float-left text-2xl font-serif">Certification</label><br>
-                        <p class="float-left text-justify">Certification en développement web et mobile à la Sonatel Academy Mermoz Dakar, Senegal</p>
-                </div>
-                <div class="bg-orange-100 rounded-xl py-3 px-5 shadow-2xl">
-                        <label class="float-left font-serif text-te">2016-2018</label><br>
-                        <label class="float-left text-2xl font-serif">Licence en génie logiciel</label><br>
-                        <p class="float-left text-justify">Licence en génie logiciel Ecole Supérieur des Sciences Appliquées Mermoz Dakar, Sénégal.</p>
-                </div>
-                <div class="bg-lime-50 rounded-xl py-3 p-5 shadow-2xl">
-                    <label class="float-left font-serif">2014-2015</label><br>
-                    <label class="float-left text-2xl font-serif">Baccalaureat</label><br>
-                    <p class="float-left">Lycée Mixte Maurice Delafosse Gueule Tapée Dakar, Sénégal. </p>
-                </div>
-            </div> 
-        </div>
-        <!-- experience -->
-        <div class="mx-5">
-            <div class="grid grid-rows-4 gap-4">                
-                <div class="bg-purple-100 rounded-xl shadow-2xl">
-                    <div class="p-4">
-                        <label class="float-left font-serif">Mai à octobre 2022</label><br>
-                        <label class="float-left text-2xl font-serif">Développeuse Fullstack à SOELOG</label><br>
-                        <label class="float-left text-justify mb-3">Conception et développement d'application de contrôle de gestion et intégration de nouveaux
-                            services dans des application existante et support technique. Gestion de l'organisation du suivi et de la validation des projets.Technologies utilisées Zend framework et Ajax/JQuery.</label>
-                    </div>
-                </div>
-
-                <div  class="bg-yellow-50 rounded-xl shadow-2xl p-4">
-                    <label class="float-left font-serif">De novembre 2021 à mars 2022</label><br>
-                    <label class="float-left text-2xl font-serif">Développeuse Fullstack à Competence221 </label><br>
-                    <p class="float-left text-justify">C'est une plateforme permettant aux sénégalais de l’extérieur de pouvoir présenter des projets d’obtenir
-                        un financement aux prés des autorités ou des organisations de ce pays. Nodejs et Angular</p>
-                </div>
-                <div  class="bg-teal-50 rounded-xl shadow-2xl p-4">
-                    <label class="float-left font-serif text-te">De juin 2021 à novembre 2021</label><br>
-                    <label class="float-left text-2xl font-serif">Sonatel </label><br>
-                    <p class="float-left text-justify">Digitalisation du catalogue de service, des méthodes et des outils d'innovation (Koori & iBox) afin
-                        démocratiser l'usage du Design Thinking au niveau de l'innovation Lab de la Sonatel Projet realisé avec node.js et Angular</p>
-                </div>
-                <div class="bg-rose-100 rounded-xl shadow-2xl p-4">
-                    <label class="float-left font-serif text-te">De décembre 2020 à février 2021</label><br>
-                    <label class="float-left text-2xl font-serif">Sonatel Academy</label><br>
-                    <p class="float-left text-justify">projet de gestion des apprenants de la sonatelacademy. Projet réalisé avec symfony et angular.</p>
-                </div>
-            </div>
-        </div>
+    <div class="p-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2em"
+        height="2em"
+        class="float-left"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M4 21q-.825 0-1.412-.587Q2 19.825 2 19V8q0-.825.588-1.412Q3.175 6 4 6h4V4q0-.825.588-1.413Q9.175 2 10 2h4q.825 0 1.413.587Q16 3.175 16 4v2h4q.825 0 1.413.588Q22 7.175 22 8v11q0 .825-.587 1.413Q20.825 21 20 21Zm6-15h4V4h-4Z"
+        />
+      </svg>
+      <label class="float-left ml-4 text-xl font-semibold"
+        >Experience Professionnelles</label
+      >
     </div>
-    
-    <app-footer></app-footer>
+  </div>
+
+  <div class="grid grid-cols-2">
+    <!-- Education -->
+    <div class="mx-5">
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <!--  -->
+        <div class="bg-fuchsia-100 rounded-xl py-3 px-5 shadow-2xl">
+          <label class="float-left font-serif">2020-2021</label><br />
+          <label class="float-left text-2xl font-serif">Certification</label
+          ><br />
+          <p class="float-left text-justify">
+            Certification en développement web et mobile à la Sonatel Academy
+            Mermoz Dakar, Senegal
+          </p>
+        </div>
+        <div class="bg-orange-100 rounded-xl py-3 px-5 shadow-2xl">
+          <label class="float-left font-serif text-te">2016-2018</label><br />
+          <label class="float-left text-2xl font-serif"
+            >Licence en génie logiciel</label
+          ><br />
+          <p class="float-left text-justify">
+            Licence en génie logiciel Ecole Supérieur des Sciences Appliquées
+            Mermoz Dakar, Sénégal.
+          </p>
+        </div>
+        <div class="bg-lime-50 rounded-xl py-3 p-5 shadow-2xl">
+          <label class="float-left font-serif">2014-2015</label><br />
+          <label class="float-left text-2xl font-serif">Baccalaureat</label
+          ><br />
+          <p class="float-left">
+            Lycée Mixte Maurice Delafosse Gueule Tapée Dakar, Sénégal.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- experience -->
+    <div class="mx-5">
+      <div class="grid grid-rows-4 gap-4">
+        <div class="bg-purple-100 rounded-xl shadow-2xl">
+          <div class="p-4">
+            <label class="float-left font-serif">Mai à octobre 2022</label
+            ><br />
+            <label class="float-left text-2xl font-serif"
+              >Développeuse Fullstack à SOELOG</label
+            ><br />
+            <label class="float-left text-justify mb-3"
+              >Conception et développement d'application de contrôle de gestion
+              et intégration de nouveaux services dans des application existante
+              et support technique. Gestion de l'organisation du suivi et de la
+              validation des projets.Technologies utilisées Zend framework et
+              Ajax/JQuery.</label
+            >
+          </div>
+        </div>
+
+        <div class="bg-yellow-50 rounded-xl shadow-2xl p-4">
+          <label class="float-left font-serif"
+            >De novembre 2021 à mars 2022</label
+          ><br />
+          <label class="float-left text-2xl font-serif"
+            >Développeuse Fullstack à Competence221 </label
+          ><br />
+          <p class="float-left text-justify">
+            C'est une plateforme permettant aux sénégalais de l’extérieur de
+            pouvoir présenter des projets d’obtenir un financement aux prés des
+            autorités ou des organisations de ce pays. Nodejs et Angular
+          </p>
+        </div>
+        <div class="bg-teal-50 rounded-xl shadow-2xl p-4">
+          <label class="float-left font-serif text-te"
+            >De juin 2021 à novembre 2021</label
+          ><br />
+          <label class="float-left text-2xl font-serif">Sonatel </label><br />
+          <p class="float-left text-justify">
+            Digitalisation du catalogue de service, des méthodes et des outils
+            d'innovation (Koori & iBox) afin démocratiser l'usage du Design
+            Thinking au niveau de l'innovation Lab de la Sonatel Projet realisé
+            avec node.js et Angular
+          </p>
+        </div>
+        <div class="bg-rose-100 rounded-xl shadow-2xl p-4">
+          <label class="float-left font-serif text-te"
+            >De décembre 2020 à février 2021</label
+          ><br />
+          <label class="float-left text-2xl font-serif">Sonatel Academy</label
+          ><br />
+          <p class="float-left text-justify">
+            projet de gestion des apprenants de la sonatelacademy. Projet
+            réalisé avec symfony et angular.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
 </div>
+
+<!-- RESPONSIVE DESIGN -->
+
+<div class="bg-white w-full grid grid-cols-1 rounded-xl shadow-2xl lg:hidden">
+  <div class="flex flex-row my-10 ml-4 font-serif">
+    <div class="basis-1/5 font-fredoka">Parcours</div>
+    <div class="text-rose-500 text-5xl -mt-6">______</div>
+  </div>
+
+  <div class="grid grid-cols-1">
+    <div class="p-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2em"
+        height="2em"
+        class="float-left"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="currentColor"
+          d="m368 350.643l-112 63l-112-63v-66.562l-32-17.778v103.054l144 81l144-81V266.303l-32 17.778v66.562z"
+        />
+        <path
+          fill="currentColor"
+          d="M256 45.977L32 162.125v27.734L256 314.3l192-106.663V296h32V162.125Zm160 142.831l-32 17.777L256 277.7l-128-71.115l-32-17.777l-22.179-12.322L256 82.023l182.179 94.463Z"
+        />
+      </svg>
+      <label class="float-left ml-4 text-xl font-semibold"
+        >Diplome et Formation</label
+      >
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 gap-4 mx-5">
+    <div class="bg-fuchsia-100 rounded-xl py-3 px-5 shadow-2xl">
+      <label class="float-left font-serif">2020-2021</label><br />
+      <label class="float-left text-2xl font-serif">Certification</label><br />
+      <p class="float-left text-justify">
+        Certification en développement web et mobile à la Sonatel Academy Mermoz
+        Dakar, Senegal
+      </p>
+    </div>
+    <div class="bg-orange-100 rounded-xl py-3 px-5 shadow-2xl">
+      <label class="float-left font-serif text-te">2016-2018</label><br />
+      <label class="float-left text-2xl font-serif"
+        >Licence en génie logiciel</label
+      ><br />
+      <p class="float-left text-justify">
+        Licence en génie logiciel Ecole Supérieur des Sciences Appliquées Mermoz
+        Dakar, Sénégal.
+      </p>
+    </div>
+
+    <div class="bg-lime-50 rounded-xl py-3 p-5 shadow-2xl">
+      <label class="float-left font-serif">2014-2015</label><br />
+      <label class="float-left text-2xl font-serif">Baccalaureat</label><br />
+      <p class="float-left">
+        Lycée Mixte Maurice Delafosse Gueule Tapée Dakar, Sénégal.
+      </p>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 gap-4">
+    <div class="p-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2em"
+        height="2em"
+        class="float-left"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M4 21q-.825 0-1.412-.587Q2 19.825 2 19V8q0-.825.588-1.412Q3.175 6 4 6h4V4q0-.825.588-1.413Q9.175 2 10 2h4q.825 0 1.413.587Q16 3.175 16 4v2h4q.825 0 1.413.588Q22 7.175 22 8v11q0 .825-.587 1.413Q20.825 21 20 21Zm6-15h4V4h-4Z"
+        />
+      </svg>
+      <label class="float-left ml-4 text-xl font-semibold"
+        >Experience Professionnelles</label
+      >
+    </div>
+  </div>
+  <div class="grid grid-cols-1 gap-4 mx-5">
+    <div class="bg-purple-100 rounded-xl shadow-2xl">
+      <div class="p-4">
+        <label class="float-left font-serif">Mai à octobre 2022</label><br />
+        <label class="float-left text-2xl font-serif"
+          >Développeuse Fullstack à SOELOG</label
+        ><br />
+        <label class="float-left text-justify mb-3"
+          >Conception et développement d'application de contrôle de gestion et
+          intégration de nouveaux services dans des application existante et
+          support technique. Gestion de l'organisation du suivi et de la
+          validation des projets.Technologies utilisées Zend framework et
+          Ajax/JQuery.</label
+        >
+      </div>
+    </div>
+    <div class="bg-yellow-50 rounded-xl shadow-2xl p-4">
+      <label class="float-left font-serif">De novembre 2021 à mars 2022</label
+      ><br />
+      <label class="float-left text-2xl font-serif"
+        >Développeuse Fullstack à Competence221 </label
+      ><br />
+      <p class="float-left text-justify">
+        C'est une plateforme permettant aux sénégalais de l’extérieur de pouvoir
+        présenter des projets d’obtenir un financement aux prés des autorités ou
+        des organisations de ce pays. Nodejs et Angular
+      </p>
+    </div>
+
+    <div class="bg-teal-50 rounded-xl shadow-2xl p-4">
+      <label class="float-left font-serif text-te"
+        >De juin 2021 à novembre 2021</label
+      ><br />
+      <label class="float-left text-2xl font-serif">Sonatel </label><br />
+      <p class="float-left text-justify">
+        Digitalisation du catalogue de service, des méthodes et des outils
+        d'innovation (Koori & iBox) afin démocratiser l'usage du Design Thinking
+        au niveau de l'innovation Lab de la Sonatel Projet realisé avec node.js
+        et Angular
+      </p>
+    </div>
+
+    <div class="bg-rose-100 rounded-xl shadow-2xl p-4">
+      <label class="float-left font-serif text-te"
+        >De décembre 2020 à février 2021</label
+      ><br />
+      <label class="float-left text-2xl font-serif">Sonatel Academy</label
+      ><br />
+      <p class="float-left text-justify">
+        projet de gestion des apprenants de la sonatelacademy. Projet réalisé
+        avec symfony et angular.
+      </p>
+    </div>
+  </div>
+  <div>
+    <app-footer></app-footer>
+  </div>
+</div>
+
