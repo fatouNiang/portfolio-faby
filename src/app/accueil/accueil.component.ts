@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accueil.component.css']
 })
 export class AccueilComponent implements OnInit {
-  dark= false;
-  menu= false;
+  // dark= false;
+  // menu= false;
+  // contenu= false;
   constructor() { }
 
   ngOnInit(): void {
-  }
-
+      
+    }
+    
 }

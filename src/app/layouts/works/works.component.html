@@ -1,5 +1,5 @@
-<div class="bg-white w-3/4 grid grid-cols-1 rounded-xl mx-44 my-9 shadow-2xl hidden md:block">
-    <div class="flex flex-row my-10 ml-14 font-serif text-4xl">
+<div class="bg-white w-3/4 grid grid-cols-1 rounded-xl mx-44 my-9 shadow-2xl hidden md:block  dark:bg-gray-700 dark:text-white">
+    <div class="flex flex-row p-10 ml-14 font-serif text-4xl">
         <div class=" basis-1/5 font-fredoka">Portfolio </div>
         <div class="text-rose-500 text-5xl -mt-6">______</div>
     </div>
@@ -10,9 +10,9 @@
         <div class="p-4 text-lg hover:text-teal-500">Node.js</div>
         <div class="p-4 text-lg hover:text-teal-500">Laravel</div>
     </div>
-    <div class="grid grid-cols-3 gap-x-9">
+    <div class="grid grid-cols-3 gap-x-9 dark:text-black">
         <div class="bg-blue-100 rounded-lg ml-5">
-            <video id="video" controls preload="metadata" class="ml-2 mt-5 rounded-md">
+            <video id="video" controls preload="metadata" class="mt-5 rounded-md">
                 <source src="assets/video/Presentation_kooriFront.mkv" type="video/mkv">
                 <!-- <source src="resources/myvideo.webm" type="video/webm"> -->
              </video>
@@ -20,7 +20,7 @@
             <h2 class="text-center text-lg">Angular / Symfony</h2>
         </div>
         <div class="bg-red-100 rounded-lg">
-            <video id="video" controls preload="metadata" class="ml-5 mt-5 rounded-md">
+            <video id="video" controls preload="metadata" class="ml-3 mt-5 rounded-md">
                 <source src="https://www.youtube.com/watch?v=m99ZASPwvHs" type="video/mkv">
                 <!-- <source src="resources/myvideo.webm" type="video/webm"> -->
              </video>
@@ -28,7 +28,7 @@
             <h2 class="text-center text-lg">Angular / Laravel</h2>
         </div>
         <div class="bg-yellow-100 rounded-lg mr-5">
-            <video id="video" controls preload="metadata" class="ml-5 mt-5 rounded-md">
+            <video id="video" controls preload="metadata" class="ml-1 mt-5 rounded-md">
                 <source src="assets/video/Presentation_kooriFront.mkv" type="video/mkv">
                 <!-- <source src="resources/myvideo.webm" type="video/webm"> -->
              </video>
@@ -44,17 +44,17 @@
 
 <!-- RESPONSIVE DESIGN -->
 
-<div class="bg-white w-3/4 grid grid-cols-1 rounded-xl px-10 shadow-2xl lg:hidden">
+<div class="bg-white w-full grid grid-cols-1 rounded-xl px-10 shadow-2xl lg:hidden dark:bg-gray-700 dark:text-white">
     <div class="flex flex-row my-10 ml-14 font-serif">
         <div class=" basis-1/5 font-fredoka">Portfolio </div>
         <!-- <div class="text-rose-500 text-5xl -mt-6">______</div> -->
     </div>
-    <div class="grid grid-cols-1 gap-9">
+    <div class="grid grid-cols-1 gap-9 dark:text-black">
         <div class="bg-blue-100 rounded-lg">
-            <video id="video" controls preload="metadata" class="ml-2 mt-5 rounded-md">
+            <video id="video" controls preload="metadata" class="mt-5 rounded-md">
                 <source src="assets/video/Presentation_kooriFront.mkv" type="video/mkv">
              </video>
-            <h1 class="text-center">Fil Rouge</h1>
+            <h1 class="text-center  dark:text-black">Fil Rouge</h1>
             <h2 class="text-center text-lg">Angular / Symfony</h2>
         </div>
         <div class="bg-red-100 rounded-lg">
@@ -65,7 +65,7 @@
             <h2 class="text-center text-lg">Angular / Laravel</h2>
         </div>
         <div class="bg-yellow-100 rounded-lg">
-            <video id="video" controls preload="metadata" class="ml-5 mt-5 rounded-md">
+            <video id="video" controls preload="metadata" class="mt-5 rounded-md">
                 <source src="assets/video/Presentation_kooriFront.mkv" type="video/mkv">
                 <!-- <source src="resources/myvideo.webm" type="video/webm"> -->
              </video>
@@ -73,4 +73,5 @@
             <h2 class="text-center text-lg">ionic / Symfony</h2>
         </div>
     </div>
+    <app-footer></app-footer>
 </div>
